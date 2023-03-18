@@ -40,11 +40,14 @@ ScrollReveal({
         delay: 200
     });
 
-ScrollReveal().reveal('.home-content, .heading', { origin: 'top'});
+ScrollReveal().reveal('.home-content h3, .heading, .about-content h3', { origin: 'top'});
+ScrollReveal().reveal('.social-media, .home-content a, .services-container, .portfolio-box, .contact form, .about-content a', { origin: 'bottom'});
+ScrollReveal().reveal('.home-img, .about-content ul', { origin: 'right'});
+ScrollReveal().reveal('.home-content h1, .home-content h2, .home-content p, .about-img', { origin: 'left'});
 
 /* typed */
 const typed = new Typed('.multiple-text', {
-    strings: ['Netrunner', 'Cyberpunk', 'Frontend Developer'],
+    strings: ['Netrunner in Night City', 'Frontend Developer'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,

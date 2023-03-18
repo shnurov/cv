@@ -40,10 +40,9 @@ ScrollReveal({
         delay: 200
     });
 
-ScrollReveal().reveal('.home-content h3, .heading, .about-content h3', { origin: 'top'});
-ScrollReveal().reveal('.social-media, .home-content a, .services-container, .portfolio-box, .contact form, .about-content a', { origin: 'bottom'});
-ScrollReveal().reveal('.home-img, .about-content ul', { origin: 'right'});
-ScrollReveal().reveal('.home-content h1, .home-content h2, .home-content p, .about-img', { origin: 'left'});
+ScrollReveal().reveal('.home-content h1, .home-content h2, .home-content h3, .heading, .about-content', { origin: 'top'});
+ScrollReveal().reveal('.social-media, .home-content div, .home-content p, .home-content a, .home-img, .about-img, .services-container, .portfolio-box, .contact form', { origin: 'bottom'});
+
 
 /* typed */
 const typed = new Typed('.multiple-text', {
